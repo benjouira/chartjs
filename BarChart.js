@@ -44,3 +44,11 @@ const stackedBar = new Chart(ctx, {
         }
     }
 });
+
+const config = {
+  type: 'bar',
+  data,
+  options: {
+    indexAxis: 'y',
+  }
+};
